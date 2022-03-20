@@ -2,7 +2,7 @@
 // @name         keyboard event hook
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  disalow some keybindings to be handled by the site
+// @description  disalow some keybindings to be handled by the sites
 // @author       denisde4ev
 // @include      http://*.*/*
 // @include      https://*.*/*
@@ -33,5 +33,7 @@ window.document.addEventListener = function(on,fn, opt){
 		return fn_apply(fn, this, arguments);
 	}, opt);
 }
+
+// TODO: remove event listener
 
 window.document.addEventListener.toString = function(){ return documentaddEventListener.toStrig(); } // it's not me
