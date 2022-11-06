@@ -1,0 +1,21 @@
+.cm-trailingspace {
+	background:radial-gradient(gray,transparent 1px) 0 100%/2ch 1ch repeat-x
+}
+
+a[href="https://violentmonkey.github.io/posts/how-to-edit-scripts-with-your-favorite-editor/"] {
+	display: none;
+}
+
+
+.edit-buttons {
+	height: 100%;
+	display: flex;
+}
+
+
+.CodeMirror-hints.default,
+.editor-code .CodeMirror,
+.monospace-font,
+code {
+	font-family:  DejaVu Sans Mono, Droid Sans Mono, monospace, mono;
+}

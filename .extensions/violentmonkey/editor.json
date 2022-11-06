@@ -1,0 +1,14 @@
+{
+  "lineWrapping": false,
+  "indentWithTabs": true,
+  "indentUnit": 2,
+  "tabSize": 2,
+  "undoDepth": 500,
+  "autocapitalize": false,
+  "autocompleteOnTyping": 0,
+  "autocorrect": false,
+  "continueComments": false,
+  "smartIndent": false,
+  "viewportMargin": 0,
+  "autoCloseBrackets": false
+}
